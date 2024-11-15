@@ -1,0 +1,74 @@
+
+h1.header {
+	font-family: cursive;
+	text-shadow: 4px 2px white;
+	text-align: center;
+	position: absolute;
+	top: 75px;
+	left: 290px;
+
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: grey;
+}
+
+div {
+	background-color: black;
+}
+
+h3 {
+	color: white;
+}
+
+img {
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+  	width: 50%;
+	height: 300px;
+	width: 300px;
+}
+
+.IMG {
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+	width: 300px;
+	max-width: 50%;
+	height: auto;
+}
+
+table, th, td {
+	border: 1px solid white;
+	width: 23%;
+	text-align: center;
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: #3e3e3e;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: steelblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: teal;
+  background-color: transparent;
+  text-decoration: underline;
+}
